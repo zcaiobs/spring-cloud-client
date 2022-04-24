@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: app
+  cloud:
+    config:
+      enabled: ${SERVER_CONFIG:false}
+      fail-fast: true
+      profile: ${PROFILE}
+      uri:
+        - http://localhost:8888

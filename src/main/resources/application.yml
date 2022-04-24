@@ -1,0 +1,8 @@
+data:
+  value: "Config local"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
